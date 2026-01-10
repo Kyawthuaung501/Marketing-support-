@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { MarketingPlan } from './types';
 
-const getAI = () => new GoogleGenAI({ apiKey: process.env.API_KEY });
+const getAI = () => new GoogleGenAI({ const API_KEY = import.meta.env.VITE_GEMINI_API_KEY; });
 
 const extractJSON = (text: string): any => {
   try {
