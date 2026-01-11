@@ -24,11 +24,11 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@google/generative-ai": "^0.21.0"  // Gemini API Library
+    "@google/generative-ai": "^0.21.0"  
   },
   "scripts": {
-    "dev": "vite",      // Development mode run မယ်
-    "build": "vite build", // APK အတွက် build လုပ်မယ်
+    "dev": "vite",      
+    "build": "vite build", 
     "preview": "vite preview"
   }
 }
